@@ -1,0 +1,75 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+main{
+    background-color: rgb(0, 3, 4);
+    padding-top: 1px;
+    height: 100vh;
+}
+
+.logoContainer{
+    margin-top: 5%;
+    text-align: center;
+    color: white;
+    font-size: 40px;
+}
+
+.turnContainer{
+    margin-top: 2vh;
+    margin-bottom: 1vh;
+}
+.turnContainer>p{
+    color: antiquewhite;
+    font-size: 25px;
+    text-align: center;
+}
+
+.gridContainer {
+    display: grid;
+    margin: 0 auto;
+    grid-template-columns: 33% 33% 33%;
+    grid-template-rows: 33% 33% 33%;
+    max-width: 300px;
+  }
+
+.gridItem {
+    background-color: rgba(138, 43, 226, 0.5);
+    border: 1px solid (255, 255, 255, 1);
+    min-width: 100px;
+    min-height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 50px;
+    cursor: pointer;
+}
+
+.resetContainer{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1vh;
+}
+
+.winMsgContainer
+{
+    margin-top: 2vh;
+    margin-bottom: 1vh;
+    color: antiquewhite;
+    font-size: 25px;
+    text-align: center;
+}
+
+#reset
+{
+    background-color: blueviolet;
+    color: white;
+    padding: 8px;
+    border-radius: 8px;
+    border: none;
+    font-size: 15px;
+    cursor: pointer;
+}
